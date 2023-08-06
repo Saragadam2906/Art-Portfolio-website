@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset ="utf-8">
+    <meta name ="viewport" content="width=device-width, intial-scale=1">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="../Art_Portfolio/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+    <header>
+        <h1>Artist Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 style="padding:5px 20px 30px 20px;">About Me</h2>
+            <p style="text-align: justify; font-size:20px;">Hello, I'm Saragadam Geethika, a passionate and imaginative artist on a never-ending creative journey. Art has been my truest companion since I first held a paintbrush, and it has shaped my life in profound ways.I find inspiration in the world around me, My art is a reflection of my soul, and I pour my heart into each stroke, color, and composition.For me, art is a constant journey of growth and discovery. It is a way to communicate with the world, I hope my creations resonate with you and ignite your own creative spark.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 style="padding:5px 20px 30px 20px;">My Gallery</h2>
+            <div class="gallery">
+                <!-- Add your artwork images here -->
+                <img src="../Art_Portfolio/images/1.jpg" alt="Artwork 1">
+                <img src="../Art_Portfolio/images/2.jpg" alt="Artwork 2">
+                <img src="../Art_Portfolio/images/3.jpg" alt="Artwork 3">
+            </div>
+            <button type="button"  id="gallery-btn" style="color: #fff;
+            text-decoration: none;">
+              <a href="../Art_Portfolio/gallery.html" target="_blank">
+              Show More</a></button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/login/" role="button"
+              ><i class="fa fa-facebook-f" style="font-size:24px"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" role="button"
+              ><i class="fa fa-twitter" style="font-size:24px"></i
+            ></a>
+      
+            <!-- Pinterest -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://in.pinterest.com/login/" role="button"
+              ><i class="fa fa-pinterest" style="font-size:24px"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/accounts/login/" role="button"
+              ><i class="fa fa-instagram" style="font-size:24px"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/login" role="button"
+              ><i class="fa fa-linkedin" style="font-size:24px"></i
+            ></a>
+            
+            
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          Created By Saragadam Geethika
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="../Art_Portfolio/Art.js"></script>
+</body>
+
+</html>
